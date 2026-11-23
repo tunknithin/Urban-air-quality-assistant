@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build & temporary outputs
+build/
+dist/
+coverage/
+tmp/
+.playwright-cli/
+*.log
+
+# Environment secrets (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+# Local SQLite database & runtime data
+data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db

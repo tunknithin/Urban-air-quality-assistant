@@ -1,0 +1,8 @@
+{
+  "name": "Urban Air Quality Assistant (U-AQA)",
+  "description": "Breathe smarter. Travel safer. Live healthier. Real-time urban air quality monitoring, CPCB/US/EU AQI analytics, interactive pollution mapping, smart activity recommendations, and AI guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
