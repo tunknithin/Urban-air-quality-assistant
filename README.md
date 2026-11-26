@@ -92,7 +92,7 @@ cp .env.example .env
 | `TRUST_PROXY` | No | `1` | Reverse-proxy hop count for Express + rate limiting (`1` supports Cloud Run / Nginx `X-Forwarded-For` and `Forwarded` headers; set `0` or `false` if exposed directly without a proxy). |
 | `DB_PATH` | No | `./data/uaqa.db` | Filesystem path for persistent SQLite storage (or `:memory:` for ephemeral test runs). |
 
-> **Security Note**: Never commit `.env` or API keys. `.gitignore` excludes `.env`, `.env.*`, `data/`, and `*.db*` while keeping `.env.example` tracked.
+
 
 ---
 
